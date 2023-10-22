@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0%;
+}
+
+body {
+  background-image: url(/images/login\ img.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  color: #ffff;
+  padding: 20px;
+}
+.container h1 {
+  text-align: center;
+}
+.login-section {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.login-section label {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.login-section input[type="email"],
+.login-section input[type="password"] {
+  margin-bottom: 15px;
+  width: 80%;
+  height: 20px;
+}
+
+#checkbox {
+  margin-bottom: 25px;
+}
+
+.login-section button {
+  width: 50%;
+  height: 27px;
+  margin-bottom: 25px;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-section button:hover {
+  background-color: red;
+}
+
+.login-section a {
+  color: blue;
+}
+
+.login-section a:link {
+  color: blue;
+}
+
+.login-section a:visited {
+  color: red;
+}
+
+.login-section a:hover {
+  color: green;
+  font-style: italic;
+}
+
+.login-section a:active {
+  text-decoration: underline;
+}
